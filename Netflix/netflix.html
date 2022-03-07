@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <title>Netflix</title>
+
+</head>
+
+<body>
+    <section id="piece1">
+        <div id="navbar">
+            <nav>
+                <div id="logo">
+                    <a href="#"><img src="img/netflix-logo-1-1.png" alt=""></a>
+                </div>
+                <div id="nav">
+                    <select name="lang" id="lang">
+                        <option value="tr" id="tr">Türkçe</option>
+                        <option value="ing" id="ing">English</option>
+                    </select>
+                    <a href="#" id="sign">Sign In</a>
+
+                </div>
+            </nav>
+
+        </div>
+        <div id="content">
+            <h1>
+                <pre> Unlimited movies, TV
+shows,and more.</pre>
+            </h1>
+            <p>Watch anywhere. Cancel anytime.</p>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <input type="text" placeholder="Email adress.."> <button><a href="#" id="started"> Get Started </a></button>
+        </div>
+    </section>
+
+    <section id="piece2">
+        <div id="animation">
+
+            <img src="img/tv.png" alt="">
+            <div id="video">
+                <video src="img/video-tv-0819.m4v" autoplay playsline muted loop></video>
+            </div>
+        </div>
+        <div id="content2">
+            <h1>Enjoy on your TV.</h1>
+            <h3>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</h3>
+        </div>
+
+    </section>
+    <section id="piece3">
+        <div id="animation2">
+            <img src="img/mobile-0819.jpg" alt="">
+        </div>
+        </div>
+        <div id="content3">
+            <h1>
+                <pre>Download your shows
+to watch offline.</pre>
+            </h1>
+            <h3>
+                <pre> Save your favorites easily and always have
+ something to watch.</pre>
+            </h3>
+        </div>
+    </section>
+    <section id="piece4">
+        <div id="animation">
+
+            <img src="img/device-pile.png" alt="">
+            <div id="video">
+                <video src="img/video-devices.m4v" autoplay playsline muted loop></video>
+            </div>
+        </div>
+        <div id="content2">
+            <h1>Watch everywhere.</h1>
+            <h3>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.</h3>
+        </div>
+
+    </section>
+    <section id="piece5">
+        <div id="animation2">
+            <img src="img/bolum5.png" alt="">
+        </div>
+        </div>
+        <div id="content4">
+            <h1>
+                <pre>Create profiles for kids.</pre>
+            </h1>
+            <h3>
+                <pre> Send kids on adventures with their favorite
+ characters in a space made just for them—
+ free with your membership.</pre>
+            </h3>
+        </div>
+    </section>
+
+</body>
+    
+<script>
+    $(function () {
+
+        $("#sign").click(function () {
+            alert("Kayıt olma işlemi başarılı");
+        });
+
+        $("#started").click(function () {
+            alert("Hadi Başlayalım");
+        });
+    });
+</script>
+
+</html>

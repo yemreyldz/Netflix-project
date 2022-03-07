@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+#piece1 {
+    max-width: 100%;
+    height: 800px;
+    background-image: url(img/bolum11.jpg);
+    filter: contrast(150%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-bottom: 8px solid rgb(85, 85, 85);
+}
+
+
+#logo a img {
+    width: 250px;
+    height: 80px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+#nav {
+    position: absolute;
+    margin-left: 85%;
+    top: 10px;
+}
+
+#lang {
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 5px 15px;
+    border-radius: 3px;
+    background: none;
+    color: white;
+    background-color: black;
+}
+
+#sign {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 7px 17px;
+    border-radius: 3px;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+}
+
+#content {
+    text-align: center;
+    margin-top: 10%;
+    font-family: sans-serif;
+}
+
+#content h1 {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+#content p {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#content input {
+    padding: 9px 18px;
+    font-size: 35px;
+    border: 0px;
+    float: left;
+    margin-left: 32%;
+    margin-top: 20px;
+}
+
+#content button {
+    padding: 9px 18px;
+    background-color: red;
+    font-size: 35px;
+    border: 0px;
+    float: left;
+    margin-top: 20px;
+
+}
+
+#content a {
+    text-decoration: none;
+    color: white;
+}
+
+#piece2{
+    max-width: 100%;
+    height: 500px;
+    color: white;
+    border-bottom: 8px solid rgb(85, 85, 85);
+}
+#content2{
+    margin-left: 50px;
+    max-width: 40%;
+    
+}
+#content2 h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    padding-top: 100px;
+}
+#content2 h3{
+    font-size: 35px;
+    margin-top: 15px;
+}
+
+#animation{
+    position: relative;
+    margin-left: 60%;
+    max-height: 400px;
+
+}
+#animation img{
+    position: absolute;
+}
+#video video{
+    max-width: 470px;
+    position: absolute;
+    margin-left: 82px;
+    margin-top: 97px;
+
+}
+
+#piece3{
+    max-width: 100%;
+    height: 500px;
+    color: white;
+    border-bottom: 8px solid rgb(85, 85, 85);
+}
+
+#content3{
+    position: relative;
+    font-family: sans-serif;
+
+}
+#content3 h1{
+    position: absolute;
+    margin: 5% 0% 0% 45%;
+    font-size: 50px;
+}
+#content3 h3{
+    position: absolute;
+    margin: 13% 0% 0% 44%;
+    font-size: 30px;
+
+}
+#animation2{
+    position: relative;
+    max-height: 400px;
+    margin-left: 50px;
+}
+#animation2 img{
+    position: absolute;
+}
+
+#piece4{
+    max-width: 100%;
+    height: 500px;
+    color: white;
+    border-bottom: 8px solid rgb(85, 85, 85);
+}
+#piece4 #animation{
+    position: relative;
+    margin-left: 60%;
+    max-height: 400px;
+}
+#piece4 #animation img{
+    position: absolute;
+}
+#piece4 #video video{
+    max-width: 380px;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 116px;
+}
+
+#piece5{
+    max-width: 100%;
+    height: 500px;
+    color: white;
+    border-bottom: 8px solid rgb(85, 85, 85);
+}
+#content4{
+    position: relative;
+    font-family: sans-serif;
+}
+#content4 h1{
+    position: absolute;
+    margin: 6% 0% 0% 45%;
+    font-size: 50px;
+}
+#content4 h3{
+    position: absolute;
+    margin: 12% 0% 0% 44%;
+    font-size: 30px;
+}
